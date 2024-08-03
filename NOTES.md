@@ -36,3 +36,17 @@ woooohoooo
 [  6:48PM ]  [ jac494@hp-laptop:~/Projects/the_c_programming_language ]
  $
 ```
+
+I also couldn't actually remember (I never can seem to) whether True is 1 or 0 and which is False, so I also checked myself here
+
+```txt
+[  6:54PM ]  [ jac494@hp-laptop:~/Projects/the_c_programming_language(main✗) ]
+ $ gcc -o tmp src/booleans.c
+[  6:56PM ]  [ jac494@hp-laptop:~/Projects/the_c_programming_language(main✗) ]
+ $ ./tmp
+True is 1
+False is 0
+```
+
+Turns out my memory was correct! That seems rare. (and I'm not just saying so - check the diff
+between these last few commits - I didn't have to change the values of my defines for TRUE and FALSE in space_compaction.c)
