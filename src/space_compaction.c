@@ -24,7 +24,7 @@ int main() {
         }
         else {
             if (spaceprint == TRUE) {
-                spaceprint = FALSE;   // if spaceprint was set, unset it
+                spaceprint = FALSE;    // if spaceprint was set, unset it
             }
             putchar(c);
         }
