@@ -50,3 +50,19 @@ False is 0
 
 Turns out my memory was correct! That seems rare. (and I'm not just saying so - check the diff
 between these last few commits - I didn't have to change the values of my defines for TRUE and FALSE in space_compaction.c)
+
+## Exercise 1.17
+
+Print lines longer than 80 characters
+
+[src/print_long_lines.c](src/print_long_lines.c)
+
+```txt
+$ gcc -o tmp print_long_lines.c
+$ ./tmp
+hey this is a short line
+this is a much longer line, it should be wwaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaay more than 80 chars
+this is a much longer line, it should be wwaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaay more than 80 chars
+cool it works
+^C
+```
